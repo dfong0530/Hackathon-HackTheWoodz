@@ -1,0 +1,7 @@
+.loader-location {
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

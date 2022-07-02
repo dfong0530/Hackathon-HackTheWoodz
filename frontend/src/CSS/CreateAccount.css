@@ -1,0 +1,126 @@
+.create-account-section {
+  background-color: #fff;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 77%;
+  text-align: center;
+  padding: 0 5%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.create-account-section h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #38477c;
+  margin-top: 10%;
+}
+
+.create-account-section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  color: #aaa9a9;
+  margin-top: 5.5%;
+}
+
+.create-account-section form {
+  margin-top: 1%;
+}
+
+.create-account-section input {
+  margin-top: 7%;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+.account-half-inpL {
+  width: 43%;
+  margin-right: 1.5%;
+}
+
+.account-half-inpR {
+  width: 43%;
+  margin-left: 1.5%;
+}
+
+.account-full-inp {
+  width: 87%;
+}
+
+.create-account-btn {
+  background: #3d8aff;
+  border-radius: 9px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  border: none;
+  width: 87%;
+  padding: 10px 0;
+  margin-top: 7%;
+}
+
+@media (max-width: 1350px) {
+  .create-account-section {
+    padding: 0 2.5%;
+    height: 75%;
+    width: 43%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .create-account-section h4 {
+    font-size: 33px;
+  }
+
+  .create-account-section p {
+    font-size: 12px;
+  }
+
+  .create-account-section {
+    height: 70%;
+  }
+}
+
+@media (max-width: 870px) {
+  .create-account-section {
+    width: 50%;
+    height: 67%;
+  }
+}
+
+@media (max-width: 730px) {
+  .create-account-section {
+    width: 65%;
+    height: 69%;
+  }
+}
+
+@media (max-width: 630px) {
+  .create-account-section {
+    width: 70%;
+    height: 67%;
+  }
+}
+
+@media (max-width: 510px) {
+  .create-account-section {
+    height: 63.5%;
+    top: 14%;
+  }
+  .create-account-section h4 {
+    font-size: 25px;
+  }
+
+  .create-account-section p {
+    font-size: 11px;
+  }
+}

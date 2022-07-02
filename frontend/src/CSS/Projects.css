@@ -1,0 +1,160 @@
+.nav-bar {
+  width: 100%;
+  border-bottom: 3px solid rgba(216, 216, 216, 1);
+  padding: 2% 6.2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.nav-bar h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #38477c;
+}
+
+.nav-bar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #9a9a9a;
+  margin-top: 1%;
+}
+
+.projects-grid {
+  height: 2000%;
+}
+
+.projects-intro {
+  width: 500px;
+  overflow: hidden;
+}
+
+.add-project-btn {
+  background: #3d8aff;
+  border-radius: 10px;
+  width: 13%;
+  padding: 15px 0;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.add-project-btn:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  width: 100vw;
+  max-width: 100%;
+  text-align: center;
+  grid-gap: 10rem;
+  grid-row-gap: 3.2rem;
+  margin-top: 3.2rem;
+  padding: 0 6.2%;
+  padding-bottom: 1%;
+}
+
+@media (max-width: 1250px) {
+  .projects-grid {
+    grid-gap: 6rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15rem;
+    grid-row-gap: 4rem;
+  }
+
+  .add-project-btn {
+    width: 20%;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    grid-row-gap: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav-bar {
+    padding: 2% 10%;
+  }
+
+  .nav-bar h1 {
+    font-size: 37px;
+  }
+
+  .nav-bar p {
+    font-size: 15px;
+  }
+
+  .add-project-btn {
+    font-size: 15px;
+    width: 33%;
+  }
+}
+
+@media (max-width: 550px) {
+  .add-project-btn {
+    width: 55%;
+    font-size: 13px;
+  }
+
+  .nav-bar h1 {
+    font-size: 33px;
+  }
+  .nav-bar p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .add-project-btn {
+    width: 70%;
+    font-size: 11px;
+  }
+
+  .nav-bar p {
+    margin-top: 0;
+    line-height: 23px;
+    font-size: 10px;
+  }
+
+  .nav-bar h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 317px) {
+  .add-project-btn {
+    width: 90%;
+    font-size: 9px;
+  }
+  .nav-bar p {
+    line-height: 20px;
+    font-size: 9px;
+  }
+
+  .nav-bar h1 {
+    font-size: 23px;
+  }
+}

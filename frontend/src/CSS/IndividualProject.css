@@ -1,0 +1,198 @@
+.individual-navbar {
+  width: 100%;
+  border-bottom: 3px solid rgba(216, 216, 216, 1);
+  padding: 1% 7%;
+  margin-bottom: 4%;
+}
+
+.individual-navbar h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #38477c;
+}
+
+.individual-navbar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #9a9a9a;
+}
+
+.main-individual-project {
+  padding: 0 7%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-individual-project {
+  flex-basis: 60%;
+}
+
+.left-individual-project img {
+  width: 100%;
+  height: 29rem;
+  margin-bottom: 3%;
+}
+
+.left-individual-project p {
+  width: 90%;
+  line-height: 1.7rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.right-individual-project {
+  flex-basis: 30%;
+}
+
+.individual-project-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.edit-project {
+  flex-basis: 45%;
+  background: #3d8aff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  padding: 15px 0;
+}
+
+.delete-individual-project {
+  flex-basis: 45%;
+  background: #ee6f6f;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  padding: 15px 0;
+}
+
+.delete-individual-project:hover,
+.edit-project:hover {
+  filter: brightness(110%);
+}
+
+@media (max-width: 1132px) {
+  .left-individual-project {
+    flex-basis: 62.5%;
+  }
+  .right-individual-project {
+    flex-basis: 32.5%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .individual-navbar {
+    padding: 1% 5%;
+  }
+  .main-individual-project {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 888px) {
+  .edit-project {
+    font-size: 12px;
+  }
+
+  .delete-individual-project {
+    font-size: 12px;
+  }
+
+  .left-individual-project {
+    flex-basis: 67%;
+  }
+  .right-individual-project {
+    flex-basis: 28.5%;
+  }
+}
+
+@media (max-width: 754px) {
+  .individual-navbar {
+    padding: 1% 2.5%;
+  }
+  .main-individual-project {
+    padding: 0 2.5%;
+  }
+  .individual-project-btn {
+    flex-direction: column;
+  }
+
+  .edit-project {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+
+  .delete-individual-project {
+    width: 100%;
+  }
+
+  .right-individual-project p {
+    font-size: 14px;
+  }
+  .left-individual-project img {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 557px) {
+  .individual-navbar h3 {
+    font-size: 30px;
+  }
+
+  .individual-navbar p {
+    font-size: 14px;
+  }
+
+  .left-individual-project img {
+    height: 16rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .individual-navbar h3 {
+    font-size: 25px;
+  }
+
+  .individual-navbar p {
+    font-size: 12px;
+  }
+  .left-individual-project img {
+    height: 13rem;
+  }
+  .edit-project {
+    font-size: 10px;
+  }
+
+  .delete-individual-project {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 340px) {
+  .left-individual-project img {
+    height: 10rem;
+  }
+}

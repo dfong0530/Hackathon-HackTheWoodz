@@ -1,0 +1,38 @@
+.project-box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 20rem;
+  max-height: 15.3rem;
+  text-align: left;
+  padding-bottom: 3%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.project-box:hover {
+  filter: brightness(108%);
+}
+
+.small-project-img {
+  width: 100%;
+  height: 10rem;
+}
+
+.project-box h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0.5rem 0.7rem;
+  color: #38477c;
+}
+
+.project-box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #9a9a9a;
+  margin: 0 0.7rem;
+}

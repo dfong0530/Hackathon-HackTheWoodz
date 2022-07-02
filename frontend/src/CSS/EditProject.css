@@ -1,0 +1,327 @@
+.edit-project-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 35%;
+  height: 92%;
+  z-index: 2;
+  padding: 2% 4%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+}
+
+.edit-small-input-area {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.edit-project-text h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  color: #38477c;
+}
+
+.edit-project-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 33px;
+  color: #979797;
+  margin-top: 4px;
+}
+
+.edit-project-container form {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.edit-small-input-1 {
+  flex-basis: 50%;
+}
+
+.edit-small-input-2 {
+  flex-basis: 50%;
+  text-align: right;
+}
+
+.edit-small-input-area input {
+  width: 93%;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+.edit-project-container input[type="text"] {
+  color: #555555;
+  font-size: 15px;
+  font-family: "Poppins";
+}
+
+.edit-project-container label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #b6bdca;
+}
+
+.edit-stubborn {
+  position: relative;
+  right: 20%;
+}
+
+.edit-large-input-area {
+  text-align: left;
+}
+
+.edit-project-container textarea[type="text"] {
+  color: #555555;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+
+.edit-project-container textarea {
+  resize: none;
+  border: 2px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.edit-upload-img {
+  border: none;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.edit-upload-img[type="btn"] {
+  width: 100%;
+}
+
+.submit-editProject-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel-editProject-btn {
+  background: #ee6f6f;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  width: 43%;
+  padding: 12px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+.save-editProject-btn {
+  background: #3d8aff;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  width: 43%;
+  padding: 12px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+}
+.save-editProject-btn:hover,
+.cancel-editProject-btn:hover {
+  filter: brightness(110%);
+}
+
+@media (max-width: 1375px) {
+  .edit-project-container {
+    width: 40%;
+  }
+
+  .edit-project-text h4 {
+    font-size: 30px;
+  }
+
+  .edit-project-text p {
+    font-size: 12px;
+  }
+  .edit-project-container label {
+    font-size: 13px;
+  }
+
+  .edit-stubborn {
+    right: 34%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .edit-stubborn {
+    right: 30%;
+  }
+}
+
+@media (max-width: 1168px) {
+  .edit-stubborn {
+    right: 25%;
+  }
+}
+
+@media (max-width: 1110px) {
+  .edit-project-container {
+    width: 48%;
+  }
+  .edit-stubborn {
+    right: 36%;
+  }
+}
+
+@media (max-width: 1055px) {
+  .edit-stubborn {
+    right: 31%;
+  }
+}
+
+@media (max-width: 943px) {
+  .edit-project-container {
+    width: 55%;
+  }
+  .edit-stubborn {
+    right: 35%;
+  }
+}
+
+@media (max-width: 858px) {
+  .edit-stubborn {
+    right: 29%;
+  }
+}
+
+@media (max-width: 775px) {
+  .edit-project-container {
+    width: 63%;
+  }
+  .edit-stubborn {
+    right: 33%;
+  }
+}
+
+@media (max-width: 667px) {
+  .edit-stubborn {
+    right: 24%;
+  }
+}
+
+@media (max-width: 612px) {
+  .edit-project-container {
+    width: 70%;
+  }
+  .edit-stubborn {
+    right: 26%;
+  }
+}
+
+@media (max-width: 560px) {
+  .edit-stubborn {
+    right: 20%;
+  }
+}
+
+@media (max-width: 520px) {
+  .edit-project-container {
+    width: 85%;
+  }
+  .edit-stubborn {
+    right: 27%;
+  }
+}
+
+@media (max-width: 460px) {
+  .edit-project-container {
+    height: 96%;
+  }
+  .edit-stubborn {
+    right: 20%;
+  }
+
+  .save-editProject-btn {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .cancel-editProject-btn {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 430px) {
+  .edit-stubborn {
+    right: 23%;
+  }
+
+  .edit-project-text h4 {
+    font-size: 27px;
+  }
+
+  .edit-project-text p {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  .edit-project-container label {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 380px) {
+  .edit-stubborn {
+    right: 19%;
+  }
+  .save-editProject-btn {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+
+  .cancel-editProject-btn {
+    padding: 10px 0;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  .edit-project-text h4 {
+    font-size: 20px;
+  }
+
+  .edit-project-text p {
+    font-size: 8px;
+    line-height: 17px;
+  }
+  .edit-project-container label {
+    font-size: 9px;
+  }
+
+  .save-editProject-btn {
+    padding: 9px 0;
+    font-size: 10px;
+  }
+
+  .cancel-editProject-btn {
+    padding: 9px 0;
+    font-size: 10px;
+  }
+}

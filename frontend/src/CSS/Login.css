@@ -1,0 +1,167 @@
+.login-wrapper {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 57%;
+  text-align: center;
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 95%;
+  width: 100%;
+  padding-top: 3%;
+}
+
+.login-box h4 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 50px;
+  color: rgba(56, 71, 124, 1);
+  cursor: default;
+}
+
+.login-box p {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 13.5px;
+  margin-top: 1%;
+  cursor: default;
+}
+
+.create-account-link {
+  text-decoration: none;
+  color: #3d8aff;
+}
+
+.create-account-link:hover {
+  filter: brightness(120%);
+}
+
+.login-box input {
+  width: 73%;
+  padding: 8.5px 15px;
+  margin-top: 5%;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.login-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  background: #3d8aff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 0;
+  width: 73%;
+  margin-top: 6.5%;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  filter: brightness(110%);
+}
+
+.forgot-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  color: #38477c;
+  margin-top: 4.5%;
+  cursor: default;
+}
+
+.forgot-btn {
+  color: #3d8aff;
+}
+
+.forgot-btn:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .login-wrapper {
+    width: 50%;
+    height: 53%;
+  }
+}
+
+@media (max-width: 940px) {
+  .login-wrapper {
+    width: 55%;
+    height: 51%;
+  }
+
+  .login-box h4 {
+    font-size: 43px;
+  }
+
+  .login-btn {
+    padding: 7px 0;
+    margin-top: 8%;
+  }
+
+  .login-box input {
+    margin-top: 6.5%;
+  }
+}
+
+@media (max-width: 700px) {
+  .login-box h4 {
+    margin-top: 3%;
+  }
+
+  .login-box input {
+    margin-top: 7%;
+  }
+
+  .login-btn {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-wrapper {
+    height: 48%;
+    width: 65%;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-wrapper {
+    width: 85%;
+  }
+
+  .login-box h4 {
+    font-size: 30px;
+  }
+
+  .login-box p {
+    font-size: 13px;
+  }
+
+  .forgot-p {
+    font-size: 13px;
+  }
+}
+
+@media (min-height: 900px) {
+  .login-wrapper {
+    height: 40%;
+  }
+}
+
+@media (min-height: 1000px) {
+  .login-wrapper {
+    height: 33%;
+  }
+}
