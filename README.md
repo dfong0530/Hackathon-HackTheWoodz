@@ -46,7 +46,7 @@ Meta data about the user and their projects are stored on the frontend. When the
 
 ### What we learned
 
-Frontend - Got to learn more about working with forms in the frontend. Became more comfortable using axios to make requests. Learned how to send images from the backend as well as loading images dynamically based on a given path.
+Frontend - Got to learn more about working with forms in the frontend. Became more comfortable using axios to make requests. Learned how to send images to the backend as well as loading images retrieved from the django API.
 
 Backend - We learned how to make an api using the Django rest framework, as well as how to design our endpoints to handle different types of data in various ways, such as serving media files and updating models.
 
