@@ -1,8 +1,8 @@
 <img width="581" alt="Screen Shot 2022-06-18 at 11 44 40 PM" src="https://user-images.githubusercontent.com/68403991/174465150-f4037c2b-b81e-46b4-acc9-fd29efa3e378.png">
 
-# Video Goes Here
+[![MyShelf Demo Video](https://img.youtube.com/vi/aozr4XJpuC0&t=4s/0.jpg)](https://www.youtube.com/watch?v=aozr4XJpuC0&t=4s)
 
-### Project: hackathon-my-shelf.netlify.app
+### Project: https://hackathon-my-shelf.netlify.app/
 
 ### Inspiration
 
@@ -59,7 +59,9 @@ Download or clone repository
 <ins>Frontend</ins>
 
 cd frontend
+
 npm install
+
 npm start
 
 <ins>Backend</ins>
@@ -69,9 +71,13 @@ Open up new terminal/command prompt
 cd backend
 
 "python -m venv myenv"
+
 "myenv\Scripts\activate.bat"
+
 "pip install -r requirements.txt"
+
 "python manage.py migrate"
+
 "python manage.py runserver"
 
 the api can now be accessed at "http://127.0.0.1:8000/"
