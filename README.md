@@ -12,7 +12,7 @@ Our group wanted to create a platform solely for the purpose of displaying perso
 
 ### What it does
 
-MyShelf is website that allows you to display your personal projects. It supports all operations to add, delete, updated and read projects.
+MyShelf is website that allows you to display your personal projects. For short, MyShelf is like project-portfolio generator. It supports all operations to add, delete, updated and read projects.
 
 <hr/>
 
