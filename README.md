@@ -2,7 +2,7 @@
 
 ### Demo Video: https://www.youtube.com/watch?v=aozr4XJpuC0&t=4s
 
-### Project: https://hackathon-my-shelf.netlify.app/
+### Project Link: https://hackathon-my-shelf.netlify.app/
 
 ### Inspiration
 
