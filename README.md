@@ -25,7 +25,7 @@ Backend: Django, SqlLite DB
 ### How we built it
 
 We built this webstite with a decoupled React/Django application.
-Meta data about the user and their projects are stored on the frontend. hen the user clicks on a thumnail in the projects page, data about that individual project is loaded in.
+Meta data about the user and their projects are stored on the frontend. When the user clicks on a thumnail in the projects page, data about that individual project is loaded in.
 
 <hr/>
 
