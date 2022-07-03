@@ -1,6 +1,6 @@
 <img width="581" alt="Screen Shot 2022-06-18 at 11 44 40 PM" src="https://user-images.githubusercontent.com/68403991/174465150-f4037c2b-b81e-46b4-acc9-fd29efa3e378.png">
 
-[![MyShelf Demo Video](https://img.youtube.com/vi/aozr4XJpuC0&t=4s/0.jpg)](https://www.youtube.com/watch?v=aozr4XJpuC0&t=4s)
+[![MyShelf Demo Video](https://img.youtube.com/vi/aozr4XJpuC0/0.jpg)](https://www.youtube.com/watch?v=aozr4XJpuC0&t=4s)
 
 ### Project: https://hackathon-my-shelf.netlify.app/
 
