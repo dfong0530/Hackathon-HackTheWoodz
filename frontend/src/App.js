@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { ReactNotifications } from 'react-notifications-component';
 import './App.css';
 import Login from "./Pages/Login";
-import Prac from './Pages/Prac';
 import CreateAccount from './Pages/CreateAccount';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Loader from "./Components/Loader";
@@ -34,7 +33,6 @@ function App() {
         <Route path="/projects" element={<Projects user={user} navigate={navigate} setOverlays={setOverlays} projects={projects} setProjects={setProjects} setIndividualProject={setIndividualProject} />} />
         <Route path="individual_project" element={<IndividualProject username={user.username} password={user.password} projects={projects} navigate={navigate} individualProject={individualProject} setProjects={setProjects} setOverlays={setOverlays}/>} />
       </Routes>
-      {/* <Prac /> */}
       { overlays.loading && <Loader /> }
       { overlays.background && <div id="dark-overlay"></div> }
     </>

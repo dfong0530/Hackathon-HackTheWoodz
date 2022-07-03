@@ -3,10 +3,13 @@ import { sleep, DangerNotification, SuccessNotification } from "../Data/Helper";
 import { CreateUser } from "../Data/GetData";
 import "../CSS/CreateAccount.css";
 
+//View for creating account
 const CreateAccount = ({ navigate, setOverlays }) => {
 
+    //Data that stores the forms
     const [accountData, setAccountData] = useState({name: "", jobTitle: "", email: "", username: "", password: ""});
 
+    //When user submits. Post user data to API and save some of the data on the client
     const handleSubmit = async (e) => {
         e.preventDefault();
 

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { sleep } from "../Data/Helper";
 import { UserLogin, LoadThumbnails } from "../Data/GetData";
-import { DangerNotification, SuccessNotification } from "../Data/Helper";
+import { DangerNotification } from "../Data/Helper";
 import "../CSS/Login.css";
 
 

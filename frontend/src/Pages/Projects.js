@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Project from "../Components/Project";
 import AddProject from "../Components/AddProject";
-import { Routes, Route, Link, Outlet } from "react-router-dom";
-import { sleep, SuccessNotification, DangerNotification } from "../Data/Helper";
+import { Outlet } from "react-router-dom";
+import { DangerNotification } from "../Data/Helper";
 import { GetIndividualProject } from "../Data/GetData";
 import "../CSS/Projects.css";
 

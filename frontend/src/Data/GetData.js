@@ -3,7 +3,7 @@ import { ConvertToCorrectKeys } from "./ParseData";
 
 const BASE_URL = "http://127.0.0.1:8000/";
 
-//Token, Nane, Job_Title, request_status --> log in
+//Nane, Job_Title, request_status --> log in
 export const UserLogin = async (username, password) => {
 
     var formdata = new FormData();
@@ -181,58 +181,4 @@ export const GetImage = async (imgUrl) => {
         console.log(e.message);
         return { status: 400, img: null };
     }
-
-
-    // let endpoint = `projectmanager/get_thumbnail/?title=${title}`;
-
-    // try{    
-    //     const res = await axios.get(BASE_URL + endpoint);
-    //     const data = await res.data;
-    //     return { status: 200, img: BASE_URL.substring(0, BASE_URL.length - 1) + data.thumbnail };
-    // }
-    // catch(e){
-    //     console.log(e);
-    //     return { status: 400, img: null };
-    // }
 }
-
-
-
-
-// export const PracGet = async () => {
-//     const res = await axios.get(BASE_URL + "projectmanager/projects/");
-//     const data = await res.data;
-
-//     console.log(data);
-// };
-
-
-// export const PracPost = async () => {
-
-//     var bodyFormData = new FormData();
-
-//     bodyFormData.append('title', "sup");
-//     bodyFormData.append('tools', 'also tools');
-//     bodyFormData.append('description', 'other');
-
-//     const res = await axios.post(BASE_URL + "projectmanager/create/", bodyFormData);
-//     console.log(res);
-
-// };
-
-// export const PracUploadImage = async (imgFile) => {
-//     var bodyFormData = new FormData();
-
-//     bodyFormData.append('title', "Checking");
-//     bodyFormData.append('tools', 'also tools');
-//     bodyFormData.append('description', 'other');
-//     bodyFormData.append('images', imgFile);
-
-//     const res = await axios.post(BASE_URL + "projectmanager/update/", bodyFormData, {
-//         headers: {
-//             'Content-Type': 'multipart/form-data'
-//         }
-//     });
-
-//     console.log(res);
-// };
