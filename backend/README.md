@@ -22,7 +22,7 @@ requires 'username', 'password', 'title', 'long_description', 'short_description
 
 ### `/delete_project/`
 To delete a specific project<br>
-requires 'uername', 'password', 'title' (of target project) in the body of the request and only works if the credentials match the creator of the project
+requires 'username', 'password', 'title' (of target project) in the body of the request and only works if the credentials match the creator of the project
 
 ### `/view_project/`
 To view a specific project<br>
