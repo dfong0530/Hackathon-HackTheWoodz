@@ -37,18 +37,18 @@ Meta data about the user and their projects are stored on the frontend. When the
 
 - Authentication
 
+### What we learned
+
+Frontend - Got to learn more about working with forms in the frontend. Became more comfortable using axios to make requests. Learned how to send images to the backend as well as loading images retrieved from the django API.
+
+Backend - We learned how to make an api using the Django rest framework, as well as how to design our endpoints to handle different types of data in various ways, such as serving media files and updating models.
+
 ### Bugs
 
 - Cannot have two of the same names/usernames in the database.
 - Cannot add images to live version.
 - Cannot change project name once created.
 - When creating a new user, the name and job title fields must be capitalized.
-
-### What we learned
-
-Frontend - Got to learn more about working with forms in the frontend. Became more comfortable using axios to make requests. Learned how to send images to the backend as well as loading images retrieved from the django API.
-
-Backend - We learned how to make an api using the Django rest framework, as well as how to design our endpoints to handle different types of data in various ways, such as serving media files and updating models.
 
 <hr/>
 
