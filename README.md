@@ -31,11 +31,11 @@ Meta data about the user and their projects are stored on the frontend. When the
 
 ### Problems we ran into
 
-- Connecting the frontend to the backend.
+Connecting the frontend to the backend.
 
-- Storing image files and retrieving them from the database
+Storing image files and retrieving them from the database
 
-- Authentication
+Authentication
 
 ### What we learned
 
