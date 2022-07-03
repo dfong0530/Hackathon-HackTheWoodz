@@ -1,4 +1,4 @@
-<img width="1000" height="1000" alt="Screen Shot 2022-06-18 at 11 44 40 PM" src="https://user-images.githubusercontent.com/68403991/174465150-f4037c2b-b81e-46b4-acc9-fd29efa3e378.png">
+<img width="700" height="300" alt="Screen Shot 2022-06-18 at 11 44 40 PM" src="https://user-images.githubusercontent.com/68403991/174465150-f4037c2b-b81e-46b4-acc9-fd29efa3e378.png">
 
 ### Demo Video: https://www.youtube.com/watch?v=aozr4XJpuC0&t=4s
 
