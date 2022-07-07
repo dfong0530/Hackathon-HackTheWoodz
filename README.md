@@ -70,14 +70,14 @@ Open up new terminal/command prompt
 
 cd backend
 
-"python -m venv myenv"
+`python -m venv myenv`
 
-"myenv\Scripts\activate.bat"
+`myenv\Scripts\activate.bat`
 
-"pip install -r requirements.txt"
+`pip install -r requirements.txt`
 
-"python manage.py migrate"
+`python manage.py migrate`
 
-"python manage.py runserver"
+`python manage.py runserver`
 
 the api can now be accessed at "http://127.0.0.1:8000/"
